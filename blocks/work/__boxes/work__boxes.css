@@ -1,0 +1,6 @@
+.work__boxes {
+  width: 1540px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}

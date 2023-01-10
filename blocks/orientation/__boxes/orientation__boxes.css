@@ -1,0 +1,5 @@
+.orientation__boxes {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,22 @@
+.orientation__button {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000;
+  width: 165px;
+  height: 48px;
+  background: #fff;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: .3s ease-in-out;
+  margin-top: 100px;
+}
+
+.orientation__button:hover {
+  color: #0C4BA0;
+}
