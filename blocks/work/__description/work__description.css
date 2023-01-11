@@ -1,6 +1,5 @@
 .work__description {
   width: 333px;
-  height: 78px;
   font-family: "Raleway";
   font-style: normal;
   font-weight: 400;
@@ -9,4 +8,20 @@
   font-feature-settings: "pnum" on, "lnum" on;
   color: #333;
   margin: 0;
+  margin-left: 30px;
+}
+
+@media screen and (max-width: 767px) {
+  .work__description {
+    width: 251px;
+    font-size: 14px;
+    margin-left: 24px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .work__description {
+    width: 398px;
+    font-size: 16px;
+  }
 }

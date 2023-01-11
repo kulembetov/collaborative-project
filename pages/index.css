@@ -3,8 +3,9 @@
 @import url('../blocks/work/__heading/work__heading.css');
 @import url('../blocks/work/__boxes/work__boxes.css');
 @import url('../blocks/work/__box/work__box.css');
+@import url('../blocks/work/__image/work__image.css');
 @import url('../blocks/work/__text/work__text.css');
-@import url('../blocks/work/__title/works__title.css');
+@import url('../blocks/work/__title/work__title.css');
 @import url('../blocks/work/__description/work__description.css');
 @import url('../blocks/work/__button/work__button.css');
 @import url('../blocks/work/__button/_color/_light-blue/work__button_color_light-blue.css');
@@ -21,3 +22,15 @@
 @import url('../blocks/orientation/__title/orientation__title.css');
 @import url('../blocks/orientation/__description/orientation__description.css');
 @import url('../blocks/orientation/__button/orientation__button.css');
+@import url('../blocks/values/values.css');
+@import url('../blocks/values/__heading/values__heading.css');
+@import url('../blocks/digits/digits.css');
+@import url('../blocks/digits/__heading/digits__heading.css');
+@import url('../blocks/stories/stories.css');
+@import url('../blocks/stories/__heading/stories__heading.css');
+@import url('../blocks/projects/projects.css');
+@import url('../blocks/projects/__heading/projects__heading.css');
+@import url('../blocks/news/news.css');
+@import url('../blocks/news/__heading/news__heading.css');
+@import url('../blocks/support/support.css');
+@import url('../blocks/support/__heading/support_heading.css');
