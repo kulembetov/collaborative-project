@@ -1,5 +1,6 @@
 .work__button {
-  max-width: 165px;
+  width: 165px;
+  height: 48px;
   font-family: "Raleway";
   font-style: normal;
   font-weight: 500;
@@ -7,8 +8,6 @@
   line-height: 120%;
   font-feature-settings: "pnum" on, "lnum" on;
   color: #0C4BA0;
-  width: 165px;
-  height: 48px;
   background: #e7f0ff;
   border-radius: 10px;
   border: none;
@@ -34,7 +33,7 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (max-width: 1279px) {
   .work__button {
     width: 139px;
     height: 44px;

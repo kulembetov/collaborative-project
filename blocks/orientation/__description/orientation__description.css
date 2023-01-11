@@ -1,6 +1,5 @@
 .orientation__description {
-  width: 380px;
-  height: 78px;
+  max-width: 380px;
   font-family: "Raleway";
   font-style: normal;
   font-weight: 400;
@@ -9,4 +8,20 @@
   font-feature-settings: "pnum" on, "lnum" on;
   color: #333;
   margin: 0;
+  margin-left: 30px;
+}
+
+@media screen and (max-width: 767px) {
+  .orientation__description {
+    max-width: 251px;
+    font-size: 14px;
+    margin-left: 24px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .orientation__description {
+    max-width: 279px;
+    font-size: 16px;
+  }
 }

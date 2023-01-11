@@ -4,5 +4,6 @@
   text-rendering: optimizeLegibility;
   background-color: #fff;
   color: #333333;
+  overflow-x: hidden;
   margin: 0 auto;
 }

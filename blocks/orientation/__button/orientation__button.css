@@ -1,4 +1,6 @@
 .orientation__button {
+  width: 165px;
+  height: 48px;
   font-family: "Raleway";
   font-style: normal;
   font-weight: 500;
@@ -6,17 +8,34 @@
   line-height: 120%;
   font-feature-settings: "pnum" on, "lnum" on;
   color: #000;
-  width: 165px;
-  height: 48px;
   background: #fff;
   border-radius: 10px;
   border: none;
   outline: none;
   cursor: pointer;
   transition: .3s ease-in-out;
-  margin-top: 100px;
+  margin-bottom: 30px;
+  margin-left: 30px;
 }
 
 .orientation__button:hover {
   color: #0C4BA0;
+}
+
+@media screen and (max-width: 767px) {
+  .orientation__button {
+    max-width: 128px;
+    height: 44px;
+    font-size: 14px;
+    margin-bottom: 24px;
+    margin-left: 24px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .orientation__button {
+    width: 139px;
+    height: 44px;
+    font-size: 16px;
+  }
 }

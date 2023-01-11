@@ -1,5 +1,13 @@
 .orientation__text {
+  min-height: 280px;
   display: flex;
   flex-direction: column;
   gap: 20px;
+}
+
+@media screen and (max-width: 1279px) {
+  .orientation__text {
+    min-height: 105px;
+    gap: 10px;
+  }
 }

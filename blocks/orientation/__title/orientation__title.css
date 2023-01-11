@@ -1,6 +1,5 @@
 .orientation__title {
-  width: 333px;
-  height: 82px;
+  max-width: 380px;
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
@@ -9,4 +8,20 @@
   font-feature-settings: 'pnum' on, 'lnum' on;
   color: #333;
   margin: 0;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+@media screen and (max-width: 767px) {
+  .orientation__title {
+    font-size: 18px;
+    margin-left: 24px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .orientation__title {
+    max-width: 251px;
+    font-size: 26px;
+  }
 }

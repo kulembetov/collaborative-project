@@ -19,9 +19,9 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) and (max-width: 1279px) {
   .work__description {
-    width: 398px;
+    width: 394px;
     font-size: 16px;
   }
 }
