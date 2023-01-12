@@ -4,20 +4,17 @@
   font-style: normal;
   font-weight: 700;
   font-size: 64px;
-  line-height: 120%;
-  letter-spacing: -0.01em;
+  line-height: 1.2;
+  letter-spacing: -1%;
   color: #333;
-  padding-top: 32px;
   margin: 0;
   margin-bottom: 50px;
-  margin-left: 40px;
 }
 
 @media screen and (max-width: 767px) {
   .work__heading {
     font-size: 26px;
     margin-bottom: 24px;
-    margin-left: 10px;
   }
 }
 
@@ -26,6 +23,5 @@
     text-align: center;
     font-size: 36px;
     margin-bottom: 32px;
-    margin-left: 0;
   }
 }

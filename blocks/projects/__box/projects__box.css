@@ -1,14 +1,12 @@
-.work__box {
+.projects__box {
   width: 100%;
-  min-height: 428px;
-  background-color: #fff;
-  border-radius: 30px;
-  display: grid;
-  gap: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 @media screen and (max-width: 767px) {
-  .work__box {
+  .projects__box {
     min-height: 254px;
     max-width: 300px;
     gap: 20px;
@@ -16,7 +14,7 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
-  .work__box {
+  .projects__box {
     max-width: 450px;
     min-height: 272px;
     gap: 20px;

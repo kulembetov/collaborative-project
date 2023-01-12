@@ -1,23 +1,20 @@
 .orientation__heading {
-  width: 100%;
+  max-width: 100%;
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   font-size: 64px;
-  line-height: 120%;
+  line-height: 1.2;
   letter-spacing: -0.01em;
   color: #333;
   margin: 0;
-  margin-top: 32px;
   margin-bottom: 50px;
-  margin-left: 40px;
 }
 
 @media screen and (max-width: 767px) {
   .orientation__heading {
     font-size: 26px;
     margin-bottom: 24px;
-    margin-left: 10px;
   }
 }
 
@@ -26,6 +23,5 @@
     text-align: center;
     font-size: 36px;
     margin-bottom: 32px;
-    margin-left: 0;
   }
 }

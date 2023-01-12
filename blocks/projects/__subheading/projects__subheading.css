@@ -1,5 +1,5 @@
-.work__title {
-  width: 377px;
+.projects__subheading {
+  max-width: 955px;
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
@@ -7,21 +7,19 @@
   line-height: 1.2;
   color: #333;
   margin: 0;
-  margin-left: 30px;
+  margin-bottom: 50px;
 }
 
 @media screen and (max-width: 767px) {
-  .work__title {
-    width: 231px;
-    font-size: 18px;
-    max-width: 320px;
-    margin-left: 24px;
+  .projects__subheading {
+    max-width: 300px;
+    font-size: 16px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
-  .work__title {
-    width: 256px;
-    font-size: 26px;
+  .projects__subheading {
+    max-width: 504px;
+    font-size: 16px;
   }
 }
