@@ -1,7 +1,5 @@
 .work__title {
-  width: 377px;
-  font-family: 'Raleway';
-  font-style: normal;
+  max-width: 377px;
   font-weight: 700;
   font-size: 34px;
   line-height: 1.2;
@@ -12,16 +10,15 @@
 
 @media screen and (max-width: 767px) {
   .work__title {
-    width: 231px;
+    max-width: 231px;
     font-size: 18px;
-    max-width: 320px;
     margin-left: 24px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .work__title {
-    width: 256px;
+    max-width: 256px;
     font-size: 26px;
   }
 }
