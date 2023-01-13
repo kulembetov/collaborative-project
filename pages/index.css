@@ -30,3 +30,5 @@
 @import url('../blocks/projects/__boxes/project__boxes.css');
 @import url('../blocks/projects/__box/projects__box.css');
 @import url('../blocks/projects/__image/projects__image.css');
+@import url('../blocks/projects/__buttons/project__buttons.css');
+@import url('../blocks/projects/__button/projects__button.css');

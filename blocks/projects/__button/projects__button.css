@@ -1,38 +1,36 @@
-.orientation__button {
-  width: 165px;
+.projects__button {
+  width: 204px;
   height: 48px;
   font-family: 'Raleway';
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  color: #000;
-  background: #fff;
+  color: #0c4ba0;
+  background: transparent;
+  border: 1px solid #0c4ba0;
   border-radius: 10px;
-  border: none;
   outline: none;
   cursor: pointer;
-  transition: .3s ease-in-out;
-  margin-bottom: 30px;
-  margin-left: 30px;
+  transition: 0.3s ease-in-out;
+  margin-top: 50px;
 }
 
-.orientation__button:hover {
-  color: #0C4BA0;
+.projects__button:hover {
+  border: 1px solid #00275c;
+  color: #00275c;
 }
 
 @media screen and (max-width: 767px) {
-  .orientation__button {
-    max-width: 128px;
+  .projects__button {
+    width: 300px;
     height: 44px;
     font-size: 14px;
-    margin-bottom: 24px;
-    margin-left: 24px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
-  .orientation__button {
-    width: 139px;
+  .projects__button {
+    width: 200px;
     height: 44px;
     font-size: 16px;
   }
