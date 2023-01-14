@@ -1,28 +1,23 @@
-.orientation__button {
+.work__link {
   width: 165px;
   height: 48px;
-  font-family: 'Raleway';
-  font-weight: 500;
   font-size: 20px;
+  font-weight: 500;
   line-height: 1.2;
-  color: #000;
-  background: #fff;
+  text-decoration: none;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 10px;
-  border: none;
-  outline: none;
   cursor: pointer;
   transition: .3s ease-in-out;
-  margin-bottom: 30px;
   margin-left: 30px;
-}
-
-.orientation__button:hover {
-  color: #0C4BA0;
+  margin-bottom: 30px;
 }
 
 @media screen and (max-width: 767px) {
-  .orientation__button {
-    max-width: 128px;
+  .work__link {
+    width: 128px;
     height: 44px;
     font-size: 14px;
     margin-bottom: 24px;
@@ -31,7 +26,7 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
-  .orientation__button {
+  .work__link {
     width: 139px;
     height: 44px;
     font-size: 16px;

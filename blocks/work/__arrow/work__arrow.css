@@ -1,0 +1,8 @@
+.work__arrow {
+  width: 16px;
+  height: 16px;
+  color: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  margin-left: 10px;
+}

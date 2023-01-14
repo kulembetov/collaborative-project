@@ -1,9 +1,9 @@
-.work__button_color_light-green {
+.work__link_color_light-green {
   color: #319B17;
   background: #DAEFD5;
 }
 
-.work__button_color_light-green:hover {
+.work__link_color_light-green:hover {
   color: #fff;
   background: #319B17;
 }

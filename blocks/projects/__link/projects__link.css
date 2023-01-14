@@ -1,27 +1,29 @@
-.projects__button {
+.projects__link {
   width: 204px;
   height: 48px;
-  font-family: 'Raleway';
-  font-weight: 500;
   font-size: 20px;
+  font-weight: 500;
   line-height: 1.2;
-  color: #0c4ba0;
+  text-decoration: none;
+  color: #0C4BA0;
   background: transparent;
-  border: 1px solid #0c4ba0;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #0C4BA0;
   border-radius: 10px;
-  outline: none;
   cursor: pointer;
-  transition: 0.3s ease-in-out;
+  transition: .3s ease-in-out;
   margin-top: 50px;
 }
 
-.projects__button:hover {
+.projects__link:hover {
   border: 1px solid #00275c;
   color: #00275c;
 }
 
 @media screen and (max-width: 767px) {
-  .projects__button {
+  .projects__link {
     width: 300px;
     height: 44px;
     font-size: 14px;
@@ -29,7 +31,7 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
-  .projects__button {
+  .projects__link {
     width: 200px;
     height: 44px;
     font-size: 16px;
