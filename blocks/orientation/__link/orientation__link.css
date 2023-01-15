@@ -15,6 +15,7 @@
   transition: .3s ease-in-out;
   margin-bottom: 30px;
   margin-left: 30px;
+  gap: 10px;
 }
 
 .orientation__link:hover {

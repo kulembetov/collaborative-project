@@ -7,7 +7,7 @@
 
 @media screen and (max-width: 767px) {
   .orientation__text {
-    min-height: 169px;
+    min-height: auto;
     gap: 10px;
   }
 }

@@ -33,3 +33,5 @@
 @import url(../blocks/projects/__image/projects__image.css);
 @import url(../blocks/projects/__links/project__links.css);
 @import url(../blocks/projects/__link/projects__link.css);
+@import url(../blocks/projects/__figure/projects__figure.css);
+@import url(../blocks/projects/__figure-link/projects__figure-link.css);

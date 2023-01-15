@@ -3,6 +3,7 @@
   width: 100%;
   min-height: 428px;
   background-color: #fff;
+  box-sizing: border-box;
   border-radius: 30px;
   display: grid;
   gap: 40px;
@@ -12,7 +13,7 @@
 @media screen and (max-width: 767px) {
   .work__box {
     max-width: 300px;
-    min-height: 254px;
+    min-height: auto;
     gap: 20px;
   }
 }

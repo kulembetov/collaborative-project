@@ -7,7 +7,7 @@
 
 @media screen and (max-width: 1279px) {
   .work__text {
-    min-height: 113px;
+    min-height: auto;
     gap: 10px;
   }
 }
